@@ -9,4 +9,4 @@ app.get('/greet/:name', (req, res) => {
     res.send(`Hello, ${req.params.name}`)
 })
 
-app.listen(8080)
+app.listen(3000)
